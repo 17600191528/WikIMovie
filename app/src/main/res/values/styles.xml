@@ -1,0 +1,43 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="frame_cinema_top_style">
+        <item name="android:textSize">@dimen/sp_14</item>
+        <item name="android:gravity">center</item>
+       <!-- <item name="android:alpha"></item>-->
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:background">@drawable/frame_cinema_select</item>
+    </style>
+
+    <style name="frame_cinema_xrv_style">
+        <item name="android:layout_marginTop">@dimen/dp_10</item>
+        <item name="android:layout_marginLeft">@dimen/dp_24</item>
+        <item name="android:layout_marginRight">@dimen/dp_24</item>
+    </style>
+
+    <style name="anim_pop_bottombar">
+        <item name="android:windowEnterAnimation">@anim/bottom_in</item>
+        <item name="android:windowExitAnimation">@anim/bottom_out</item>
+    </style>
+
+    <style name="take_photo_anim" parent="Animation.AppCompat.Dialog">
+        <item name="android:windowEnterAnimation">@anim/pop_enter_anim</item>
+        <item name="android:windowExitAnimation">@anim/pop_exit_anim</item>
+    </style>
+
+    <style name="Base.Widget.Design.TabLayout" parent="android:Widget">
+        <item name="tabBackground">@drawable/tab_background</item>
+    </style>
+
+    <!--<style name="take_photo_anim" parent="android:Animation">-->
+        <!--<item name="android:windowEnterAnimation">@anim/pop_enter_anim</item>-->
+        <!--<item name="android:windowExitAnimation">@anim/pop_exit_anim</item>-->
+    <!--</style>-->
+</resources>
